@@ -52,7 +52,7 @@ gpu.set(23, 9, "Initializing...")
 
 local running = false
 local users = {computer.users()}
-admins = {"BrightYC"}
+admins = {"Tumko"}
 
 for admin = 1, #admins do 
     computer.addUser(admins[admin])
@@ -107,7 +107,7 @@ end
 local function update()
     clear()
     gpu.set(26, 9, "Updating...")
-    write("/main.lua", "w", request("https://raw.githubusercontent.com/BrightYC/RipMarket/master/terminal.lua"))
+    write("/main.lua", "w", request("https://raw.githubusercontent.com/TumkoZM/mmm/main/terminal.lua"))
 end
 
 function execute(data, stdin, sandbox)
